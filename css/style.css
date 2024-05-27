@@ -231,3 +231,90 @@ section {
         text-align: center;
     }
 }
+
+.social-icon {
+    font-size: 2rem;
+    color: #DEAF84;
+}
+
+
+/* menu CSS */
+
+.sectionMenu {
+    height: fit-content;
+}
+
+.menu-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.menu-title {
+    text-align: center;
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.menu-section {
+    margin-bottom: 30px;
+}
+
+.menu-section-title {
+    font-size: 1.8em;
+    color: #deaf84;
+    border-bottom: 2px solid #deaf84;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.item-name {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.item-description {
+    font-size: 1em;
+    color: #666;
+    flex: 1;
+    margin-left: 15px;
+}
+
+.item-price {
+    font-size: 1.2em;
+    color: #333;
+}
+
+@media (max-width: 600px) {
+    .menu-container {
+        padding: 10px;
+    }
+
+    .menu-title {
+        font-size: 2em;
+    }
+
+    .menu-section-title {
+        font-size: 1.5em;
+    }
+
+    .item-name, .item-price {
+        font-size: 1em;
+    }
+
+    .item-description {
+        font-size: 0.9em;
+    }
+}
